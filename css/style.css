@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: solid 1px black; */
+}
+
+header{
+    background-color: rgb(203, 20, 20);
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.first-box{
+    background-color: white;
+    border-radius: 10px;
+    margin: 50px 200px;
+}
+
+.row {
+    width: 100%;
+    padding: 40px;
+}
+.col-30{
+    width: 10%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-30 p {
+    text-align: center;
+    color: red;
+}
+
+.buttons {
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    
+    
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    
+ 
+}
+
+.content-info{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.name-passenger{
+    background-color: grey;
+}
+
