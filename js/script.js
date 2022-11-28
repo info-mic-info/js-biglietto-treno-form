@@ -26,7 +26,7 @@ if (eta <= 18) {
 
 
 else if (eta >= 65) {
-    price_final = (price_tot- (price_tot * 40 / 100)).toFixed(2);
+    price_final = (price_tot - (price_tot * 40 / 100)).toFixed(2);
 }
 
 else {
@@ -34,6 +34,11 @@ else {
 }
 
 console.log(price_final)
+
+
+const input= document.getElementById("km").value;
+document.getElementById("name").value;
+
 
 
 
