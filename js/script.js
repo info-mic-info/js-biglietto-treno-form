@@ -36,9 +36,12 @@ else {
 console.log(price_final)
 
 
-const input= document.getElementById("km").value;
-document.getElementById("name").value;
+
+const bottone = document.getElementById("genera")
+
+bottone.addEventListener()
 
 
 
 
+ 
