@@ -20,19 +20,20 @@ bottone.addEventListener("click", function () {
 
     let eta = document.getElementById('eta').value
     let km = document.getElementById('km').value
+    let user = document.getElementById('user').value
+    
 
-    console.log('click', eta, km)
+    console.log('click', eta, km, user)
 
     let price_tot = (km * 0.21)
     let price_final
-
-    let minorenne
+    
 
 
 
     if (eta <= 18  || eta === "minorenne") {
         price_final = (price_tot - (price_tot * 20 / 100)).toFixed(2);
-        
+   
     }
 
 
@@ -48,7 +49,10 @@ bottone.addEventListener("click", function () {
 
     console.log(price_final)
 
-    document.getElementById("price").innerHTML = price_final;
+    document.getElementById("price").innerHTML = price_final +"€";
+
+    document.getElementById("username").innerHTML = user ;
+
 
 })
 
